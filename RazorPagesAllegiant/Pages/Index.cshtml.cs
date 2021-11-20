@@ -14,7 +14,11 @@ namespace RazorPagesAllegiant.Pages
 
         public void OnGet()
         {
-
         }
+
+
     }
+
+
 }
+
