@@ -10,35 +10,105 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">RazorPagesAllegiant</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <!-- Color scheme from https://adobe.ly/2lL5M7P-->
+        <head>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" />
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+        </head>
+
+        <nav class="" navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <ul class="panel">
+                <li class="color-1">
+                    <a href="#">
+                        <div class="front">
+                            <i class="fa fa-home fa-4x"></i>
+                        </div>
+                        <div class="back">
+                            <span>HOME</span>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="color-2">
+                    <a href="#">
+                        <div class="front">
+                            <i class="fa fa-pencil-square-o fa-4x"></i>
+                        </div>
+                        <div class="back">
+                            <span>BLOG</span>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="color-3">
+                    <a href="#">
+                        <div class="front">
+                            <i class="fa fa-camera-retro fa-4x"></i>
+                        </div>
+                        <div class="back">
+                            <span>PORTFOLIO</span>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="color-4">
+                    <a href="#">
+                        <div class="front">
+                            <i class="fa fa-user fa-4x"></i>
+                        </div>
+                        <div class="back">
+                            <span>ABOUT ME</span>
+                        </div>
+                    </a>
+
+                </li>
+                <li class="color-5">
+                    <a href="#">
+                        <div class="front">
+                            <i class="fa fa-comments fa-4x"></i>
+                        </div>
+                        <div class="back">
+                            <span>CONTACT</span>
+                        </div>
+                    </a>
+
+                </li>
+            </ul>
         </nav>
+
+        @*        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+            <a class="navbar-brand" asp-area="" asp-page="/Index">AllegiantDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            </nav>*@
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+
+
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - RazorPagesAllegiant - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2021 - AllegiantDev - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
