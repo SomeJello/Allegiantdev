@@ -1,4 +1,4 @@
-﻿.TestClass {
+﻿.FadeIn {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     /*-ms-animation: fadein 2s;*/ /* Internet Explorer */
@@ -18,8 +18,8 @@ legend {
 fieldset {
     width: 80%;
     padding: 7pt 14pt;
-    border: 1.5pt solid black;
     margin: 14pt auto !important;
+    border: 1.5pt solid black;
     border-radius: 5pt;
 }
 
