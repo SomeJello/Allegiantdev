@@ -4,53 +4,42 @@
     ViewData["Title"] = "Allegiant";
 }
 
-@section scripts{
-<script>
-        $("button[onclick='#top']").click(function() {
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      return false;
-    });
-</script>
-}
-
-<div class="container rounded border border-primary" style="padding: 5%; text-align: center">
+<div class="container container-fixed">
     <h2 id="client">Meet Our Client</h2>
     <h4 style="padding-top: 3%">Client</h4>
     <p style="padding-top: 2%">Info about our client</p>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="advisors">Our Advisors</h2>
+    <div style="display: flex; justify-content: center;">
+        <h4 style="text-align: left; padding-right: 15%">Professor</h4>
+        <h4 style="text-align: right; padding-left: 15%">Advisor</h4>
+    </div>
 </div>
 
-<div class="FadeIn" style="display: flex; justify-content: center;">
-    <h4 style="text-align: left; padding-right: 15%">Professor</h4>
-    <h4 style="text-align: right; padding-left: 15%">Advisor</h4>
-</div>
-
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container container-md mt-lg-5">
     <h2 id="background">Background</h2>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="problem">Problem & Proposed Solution</h2>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="highlights">Highlights</h2>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="scope">Scope</h2>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="prototypes">Prototypes</h2>
 </div>
 
-<div class="FadeIn" style="padding: 5%; text-align: center">
+<div class="container mt-lg-5">
     <h2 id="timeline">Timeline</h2>
-</div>
 
 
 @**********@
@@ -161,3 +150,5 @@
     </li>
     <li class="clearfix no-float"></li>
 </ul>
+
+</div>

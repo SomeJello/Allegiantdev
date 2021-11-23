@@ -75,7 +75,7 @@ nav{
 }
 
 nav ul {
-    min-width: 600px;
+/*    min-width: 600px;*/
     position: relative;
     display: table;
     margin: 50px auto;
@@ -88,7 +88,7 @@ nav ul {
     }
 
         /*set element perspective*/
-        nav ul li a {
+        /*nav ul li a {
             width: 100px;
             height: 100px;
             float: left;
@@ -97,7 +97,7 @@ nav ul {
             -moz-perspective: 600px;
             -ms-perspective: 600px;
             perspective: 600px;
-        }
+        }*/
 
         /*set duration, hide backface, & set transform on front class*/
         nav ul li .front {

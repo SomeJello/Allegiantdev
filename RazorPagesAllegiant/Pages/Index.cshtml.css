@@ -5,18 +5,11 @@
     animation: fadein 2s;
 }
 
-legend {
-    font-size: 200%;
-    padding: 0 !important;
-}
-
-
-fieldset {
-    width: 80%;
-    padding: 7pt 14pt;
-    margin: 14pt auto !important;
-    border: 1.5pt solid black;
-    border-radius: 5pt;
+.container{
+    text-align: center;
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 @keyframes fadein {
@@ -290,35 +283,4 @@ fieldset {
         .timeline > li.timeline-inverted > .timeline-badge {
             left: 28px;
         }
-}
-
-
-/*Scroll button*/
-.scroll {
-    opacity: 0.3;
-    background-color: aqua;
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-    .scroll:hover {
-        opacity: 1;
-    }
-
-.arrow-up {
-/*    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -9px;
-    margin-left: -5px;*/
-    line-height: 100px !important;
-    color: white;
-    vertical-align: middle !important;
-    display:flex;
-    justify-content: center;
 }
