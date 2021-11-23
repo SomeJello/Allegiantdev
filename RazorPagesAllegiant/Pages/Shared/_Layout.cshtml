@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta !importantharset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Allegiant</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -13,10 +13,11 @@
 <body>
     <header>
         <!-- Color scheme from https://adobe.ly/2lL5M7P -->
-        <h4 style="text-align: center">Logo</h4>
-        <h4 style="text-align: center">Allegiant</h4>
-
+        <div class="container">
         <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" class="brandImage" style="max-width: 10%;" src="~/images/logo/type_face/AllegiantDevTypeFaceLogo_Pink.png">
+            </a>
             <ul class="panel">
                 <li class="color-1">
                     <a href="#client">
@@ -108,7 +109,7 @@
                 </li>
             </ul>
         </nav>
-
+        </div>
         @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
             <a class="navbar-brand" asp-area="" asp-page="/Index">AllegiantDev</a>

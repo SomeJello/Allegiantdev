@@ -55,6 +55,25 @@ body {
     background: #FDF5E6;
 }
 
+nav{
+    display: inline-block;
+}
+
+/*.brandImage {
+    max-width: 150px !important;
+    text-align: center;
+}*/
+
+.navbar-brand{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    max-height: 10% !important;
+}
+
 nav ul {
     min-width: 600px;
     position: relative;
