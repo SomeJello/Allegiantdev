@@ -7,12 +7,9 @@
 
 legend {
     font-size: 200%;
-    padding: 0 16pt !important;
+    padding: 0 !important;
 }
 
-.meetOurClient {
-    padding: 0 16pt !important;
-}
 
 fieldset {
     width: 80%;
