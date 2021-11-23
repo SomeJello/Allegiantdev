@@ -47,6 +47,10 @@ button.accept-policy {
   line-height: 60px;
 }*/
 
+/******************************************/
+/*Temporarily commented out warning lines*/
+/****************************************/
+
 body {
     background: #FDF5E6;
 }
@@ -85,17 +89,17 @@ nav ul {
             -o-transform: rotateX(0deg) rotateY(0deg);
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
-            -ms-transition: all 0.5s ease-in-out;
+/*            -ms-transition: all 0.5s ease-in-out;*/
             -o-transition: all 0.5s ease-in-out;
             transition: all 0.5s ease-in-out;
             -webkit-backface-visibility: hidden;
             -moz-backface-visibility: hidden;
-            -ms-backface-visibility: hidden;
-            -o-backface-visibility: hidden;
+/*            -ms-backface-visibility: hidden;
+            -o-backface-visibility: hidden;*/
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
-            -moz-transform-style: preserve-3d;
-            -o-transform-style: preserve-3d;
+/*            -moz-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;*/
             transform-style: preserve-3d;
         }
 
@@ -121,17 +125,17 @@ nav ul {
             -o-transform: rotateX(0deg) rotateY(-180deg);
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
-            -ms-transition: all 0.5s ease-in-out;
+/*            -ms-transition: all 0.5s ease-in-out;*/
             -o-transition: all 0.5s ease-in-out;
             transition: all 0.5s ease-in-out;
             -webkit-backface-visibility: hidden;
             -moz-backface-visibility: hidden;
-            -ms-backface-visibility: hidden;
-            -o-backface-visibility: hidden;
+/*            -ms-backface-visibility: hidden;
+            -o-backface-visibility: hidden;*/
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
-            -moz-transform-style: preserve-3d;
-            -o-transform-style: preserve-3d;
+/*            -moz-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;*/
             transform-style: preserve-3d;
         }
 
@@ -151,6 +155,7 @@ nav ul {
         }
 
         nav ul li span {
+            display: inline-block;
             font-family: 'Roboto';
             font-size: 20px;
             font-weight: 300;
@@ -158,6 +163,7 @@ nav ul {
             color: white;
             text-transform: lowercase;
             vertical-align: middle;
+            word-wrap: break-word !important;
         }
 
         nav ul li.color-1 .front,
