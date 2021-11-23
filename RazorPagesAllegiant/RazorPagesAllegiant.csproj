@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\css\Shared\" />
+    <Compile Remove="wwwroot\css\Shared\**" />
+    <Content Remove="wwwroot\css\Shared\**" />
+    <EmbeddedResource Remove="wwwroot\css\Shared\**" />
+    <None Remove="wwwroot\css\Shared\**" />
   </ItemGroup>
 
 </Project>
