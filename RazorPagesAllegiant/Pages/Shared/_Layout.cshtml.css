@@ -56,6 +56,11 @@ button.accept-policy {
 /*Temporarily commented out warning lines*/
 /****************************************/
 
+.nav_bg_color {
+    background-color: darkcyan; 
+}
+
+
 body {
     background: #FDF5E6;
 }
