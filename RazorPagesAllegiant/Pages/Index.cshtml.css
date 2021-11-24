@@ -5,6 +5,15 @@
     animation: fadein 2s;
 }
 
+h2::before {
+    display: block;
+    content: " ";
+    margin-top: -260px;
+    height: 260px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .relpos{
     position: relative;
 }
