@@ -32,11 +32,11 @@ $(document).ready(function ()
                 }
 
             }
-            else {
-                if ($(this).css("opacity") == 1) {
-                    $(this).animate({ 'opacity': '0' }, 1000);
-                }
-            }
+            //else {
+            //    if ($(this).css("opacity") == 1) {
+            //        $(this).animate({ 'opacity': '0' }, 1000);
+            //    }
+            //}
         });
 
     }).scroll();
