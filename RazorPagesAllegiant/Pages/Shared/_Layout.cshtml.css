@@ -73,20 +73,19 @@ nav div .panels {
 }
 
     nav div .panels .nav-item {
-        width: 100px;
-        height: 100px;
-        margin: 0 10px;
+        width: 80px;
+        height: 80px;
+        margin: 4px;
         position: relative;
         float: left;
     }
 
         /*set element perspective*/
         nav div .panels .nav-item a {
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             float: left;
-            margin: 0 5px;
-            /*margin: 0 5px;*/
+            /*margin: 0 1px;*/
             -webkit-perspective: 600px;
             -moz-perspective: 600px;
             -ms-perspective: 600px;
@@ -152,16 +151,17 @@ nav div .panels {
         }
 
         nav div .panels .nav-item i {
-            line-height: 100px !important;
+            line-height: 80px !important;
             color: white;
             vertical-align: middle !important;
         }
 
         nav div .panels .nav-item span {
             display: inline-block;
-            font-stretch: inherit;
+            /*font-size: 0.825em;*/
+            font-size-adjust: inherit;
             font-weight: 300;
-            line-height: 100px;
+            line-height: 80px;
             color: white;
             vertical-align: middle;
             word-wrap: anywhere !important;
