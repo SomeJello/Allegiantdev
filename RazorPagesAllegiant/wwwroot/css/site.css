@@ -1,5 +1,7 @@
 html {
     font-size: 14px;
+    font-family: Poppins, Roboto, Calibri;
+    /*font-family: Roboto, Poppins, Calibri;*/
     position: relative;
     min-height: 100%;
 }
@@ -7,12 +9,15 @@ html {
 @media (min-width: 768px) {
     html {
         font-size: 16px;
+        font-family: Poppins, Roboto, Calibri;
+        /*font-family: Roboto, Poppins, Calibri;*/
     }
 }
 
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 15%;
     height: 100%;
-    font-family: Nunito;
+    font-family: Poppins, Roboto, Calibri;
+    /*font-family: Roboto, Poppins, Calibri;*/
 }
