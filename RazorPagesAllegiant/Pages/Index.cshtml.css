@@ -88,7 +88,7 @@
         position: absolute;
         content: " ";
         width: 2px;
-        background: #ffffff;
+        background: #0d6efd;
         left: 50%;
         margin-left: -1.5px;
     }
@@ -182,11 +182,11 @@
             }
 
 .timeline-badge > a {
-    color: #ffffff !important;
+    color: #0d6efd !important;
 }
 
 .timeline-badge a:hover {
-    color: #dcdcdc !important;
+    color: #0dcaf0 !important;
 }
 
 .timeline-title {
