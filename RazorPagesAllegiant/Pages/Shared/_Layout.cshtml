@@ -4,6 +4,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>@ViewData["Title"] - Allegiant</title>
+    <link rel="icon" type="image/png" href="@Url.Content("~/favicon.png")" />
+    @*<link rel="icon" type="image/svg" href="@Url.Content("~/favicon.svg")" />*@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RazorPagesAllegiant.styles.css" asp-append-version="true" />
@@ -21,6 +23,8 @@
                 <a class="navbar-brand" asp-area="" asp-page="/Index" style="display:flex; justify-content:center;">
                     <img alt="Brand" class="brandImage d-inline-block align-top" height="80" src="~/images/logo/typelogo/SVG/typelogo_dkbg_lgreen.svg" />
                 </a>
+
+                @*TODO: Navbar collapse is scuffed and looks like it snaps back *@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,10 +33,10 @@
                 <div class="panels navbar-collapse collapse d-md-inline-flex justify-content-between">
                     <div class="nav-item color-1">
                         <a href="#client">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-user fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:1.5em;">Client</span>
                             </div>
                         </a>
@@ -40,10 +44,10 @@
 
                     <div class="nav-item color-2">
                         <a href="#advisors">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-handshake-o fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:1.15em;">Advisors</span>
                             </div>
                         </a>
@@ -51,10 +55,10 @@
 
                     <div class="nav-item color-3">
                         <a href="#background">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-book fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:0.8em;">Background</span>
                             </div>
                         </a>
@@ -62,10 +66,10 @@
                     </div>
                     <div class="nav-item color-4">
                         <a href="#problem">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-question-circle-o fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:1.1em;">Problem</span>
                             </div>
                         </a>
@@ -73,10 +77,10 @@
                     </div>
                     <div class="nav-item color-5">
                         <a href="#highlights">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-lightbulb-o fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:0.95em;">Highlights</span>
                             </div>
                         </a>
@@ -84,10 +88,10 @@
                     </div>
                     <div class="nav-item color-1">
                         <a href="#scope">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-arrows-h fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:1.5em;">Scope</span>
                             </div>
                         </a>
@@ -95,10 +99,10 @@
                     </div>
                     <div class="nav-item color-2">
                         <a href="#prototypes">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-cogs fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:0.875em;">Prototypes</span>
                             </div>
                         </a>
@@ -106,10 +110,10 @@
 
                     <div class="nav-item color-3">
                         <a href="#timeline">
-                            <div class="front">
+                            <div class="front shadow-lg">
                                 <i class="fa fa-clock-o fa-3x"></i>
                             </div>
-                            <div class="back">
+                            <div class="back shadow-lg">
                                 <span style="font-size:1.15em;">Timeline</span>
                             </div>
                         </a>
