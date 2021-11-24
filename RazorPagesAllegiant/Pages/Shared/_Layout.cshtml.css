@@ -2,9 +2,9 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 a {
@@ -19,31 +19,36 @@ a {
     }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-link {
+    position: relative;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 .footer {
@@ -62,29 +67,19 @@ body {
     background: #FDF5E6;
 }
 
-nav{
-    display: inline-block;
-}
-
-/*.brandImage {
-    max-width: 150px !important;
-    text-align: center;
-}*/
-
-/*.navbar{
-    max-height: 10% !important;
-}*/
 
 nav div .panels {
-/*    min-width: 600px;*/
+    min-width: 600px;
     position: relative;
     margin: 20px;
 }
 
     nav div .panels .nav-item {
+        width: 100px;
+        height: 100px;
+        margin: 0 10px;
         position: relative;
-        list-style: none;
-        /*float: left;*/
+        float: left;
     }
 
         /*set element perspective*/
@@ -92,7 +87,8 @@ nav div .panels {
             width: 100px;
             height: 100px;
             float: left;
-            margin: 0 10px;
+            margin: 0 5px;
+            /*margin: 0 5px;*/
             -webkit-perspective: 600px;
             -moz-perspective: 600px;
             -ms-perspective: 600px;
@@ -108,17 +104,12 @@ nav div .panels {
             -o-transform: rotateX(0deg) rotateY(0deg);
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
-            /*            -ms-transition: all 0.5s ease-in-out;*/
             -o-transition: all 0.5s ease-in-out;
             transition: all 0.5s ease-in-out;
             -webkit-backface-visibility: hidden;
             -moz-backface-visibility: hidden;
-            /*            -ms-backface-visibility: hidden;
-            -o-backface-visibility: hidden;*/
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
-            /*            -moz-transform-style: preserve-3d;
-            -o-transform-style: preserve-3d;*/
             transform-style: preserve-3d;
         }
 
@@ -144,17 +135,12 @@ nav div .panels {
             -o-transform: rotateX(0deg) rotateY(-180deg);
             -webkit-transition: all 0.5s ease-in-out;
             -moz-transition: all 0.5s ease-in-out;
-            /*            -ms-transition: all 0.5s ease-in-out;*/
             -o-transition: all 0.5s ease-in-out;
             transition: all 0.5s ease-in-out;
             -webkit-backface-visibility: hidden;
             -moz-backface-visibility: hidden;
-            /*            -ms-backface-visibility: hidden;
-            -o-backface-visibility: hidden;*/
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
-            /*            -moz-transform-style: preserve-3d;
-            -o-transform-style: preserve-3d;*/
             transform-style: preserve-3d;
         }
 
@@ -175,14 +161,12 @@ nav div .panels {
 
         nav div .panels .nav-item span {
             display: inline-block;
-            font-family: 'Roboto';
-            font-size: 20px;
+            font-stretch: inherit;
             font-weight: 300;
             line-height: 100px;
             color: white;
-            text-transform: lowercase;
             vertical-align: middle;
-            word-wrap: break-word !important;
+            word-wrap: anywhere !important;
         }
 
         nav div .panels .nav-item.color-1 .front,
