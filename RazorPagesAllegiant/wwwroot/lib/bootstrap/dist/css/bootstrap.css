@@ -7500,6 +7500,10 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+.pb-6 {
+    padding-bottom: 15%;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
