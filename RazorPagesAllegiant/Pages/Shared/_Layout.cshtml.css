@@ -68,20 +68,20 @@ nav{
     max-height: 10% !important;
 }*/
 
-nav .panels {
+nav div .panels {
 /*    min-width: 600px;*/
     position: relative;
     margin: 20px;
 }
 
-    nav .panels .nav-item {
+    nav div .panels .nav-item {
         position: relative;
         list-style: none;
         /*float: left;*/
     }
 
         /*set element perspective*/
-        nav .panels .nav-item a {
+        nav div .panels .nav-item a {
             width: 100px;
             height: 100px;
             float: left;
@@ -93,7 +93,7 @@ nav .panels {
         }
 
         /*set duration, hide backface, & set transform on front class*/
-        nav .panels .nav-item .front {
+        nav div .panels .nav-item .front {
             text-align: center;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -116,7 +116,7 @@ nav .panels {
         }
 
         /*rotates element on mouse hover*/
-        nav .panels .nav-item:hover .front {
+        nav div .panels .nav-item:hover .front {
             -webkit-transform: rotateX(0deg) rotateY(180deg);
             -moz-transform: rotateX(0deg) rotateY(180deg);
             -ms-transform: rotateX(0deg) rotateY(180deg);
@@ -124,7 +124,7 @@ nav .panels {
         }
 
         /*hides 'back' of icon unless user is hovering*/
-        nav .panels .nav-item .back {
+        nav div .panels .nav-item .back {
             position: absolute;
             top: 0;
             width: inherit;
@@ -152,7 +152,7 @@ nav .panels {
         }
 
         /*sets 'back' to use z-index for browsers that do not support transform*/
-        nav .panels .nav-item:hover .back {
+        nav div .panels .nav-item:hover .back {
             z-index: 1;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -160,13 +160,13 @@ nav .panels {
             -o-transform: rotateX(0deg) rotateY(0deg);
         }
 
-        nav .panels .nav-item i {
+        nav div .panels .nav-item i {
             line-height: 100px !important;
             color: white;
             vertical-align: middle !important;
         }
 
-        nav .panels .nav-item span {
+        nav div .panels .nav-item span {
             display: inline-block;
             font-family: 'Roboto';
             font-size: 20px;
@@ -178,28 +178,28 @@ nav .panels {
             word-wrap: break-word !important;
         }
 
-        nav .panels .nav-item.color-1 .front,
-        nav .panels .nav-item.color-1 .back {
+        nav div .panels .nav-item.color-1 .front,
+        nav div .panels .nav-item.color-1 .back {
             background-color: #5ADED4;
         }
 
-        nav .panels .nav-item.color-2 .front,
-        nav .panels .nav-item.color-2 .back {
+        nav div .panels .nav-item.color-2 .front,
+        nav div .panels .nav-item.color-2 .back {
             background-color: #4DAAAB;
         }
 
-        nav .panels .nav-item.color-3 .front,
-        nav .panels .nav-item.color-3 .back {
+        nav div .panels .nav-item.color-3 .front,
+        nav div .panels .nav-item.color-3 .back {
             background-color: #26596A;
         }
 
-        nav .panels .nav-item.color-4 .front,
-        nav .panels .nav-item.color-4 .back {
+        nav div .panels .nav-item.color-4 .front,
+        nav div .panels .nav-item.color-4 .back {
             background-color: #164442;
         }
 
-        nav .panels .nav-item.color-5 .front,
-        nav .panels .nav-item.color-5 .back {
+        nav div .panels .nav-item.color-5 .front,
+        nav div .panels .nav-item.color-5 .back {
             background-color: #6C98A1;
         }
 

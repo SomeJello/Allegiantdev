@@ -11,22 +11,19 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
 </head>
 <body>
-    <header id="header-container">
+    <header>
         <!-- Color scheme from https://adobe.ly/2lL5M7P -->
 
         <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <a class="navbar-brand" asp-area="" asp-page="/Index" style="display:flex; justify-content:center;">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index" style="display:flex; justify-content:center;">
+                    <img alt="Brand" class="brandImage" height="75" src="~/images/logo/type_face/AllegiantDevTypeFaceLogo_Pink.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <img alt="Brand" class="brandImage" height="75" src="~/images/logo/type_face/AllegiantDevTypeFaceLogo_Pink.png">
-
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            
                 <div class="panels navbar-nav navbar-collapse collapse d-flex justify-content-center">
                     <div class="nav-item color-1">
                         <a class="nav-link" href="#client">
@@ -117,7 +114,7 @@
                     </div>
 
                 </div>
-            
+            </div>
         </nav>
 
 
