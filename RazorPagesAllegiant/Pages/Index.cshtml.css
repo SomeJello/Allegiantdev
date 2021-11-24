@@ -5,7 +5,11 @@
     animation: fadein 2s;
 }
 
-.container{
+.relpos{
+    position: relative;
+}
+
+.container {
     text-align: center;
     padding: 5%;
     border: 2px solid black;

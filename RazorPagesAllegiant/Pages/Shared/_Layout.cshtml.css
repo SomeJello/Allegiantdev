@@ -1,7 +1,7 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-/*a.navbar-brand {
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
@@ -40,12 +40,12 @@ button.accept-policy {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}*/
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
 
 /******************************************/
 /*Temporarily commented out warning lines*/
@@ -64,31 +64,24 @@ nav{
     text-align: center;
 }*/
 
-.navbar-brand{
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar{
+/*.navbar{
     max-height: 10% !important;
-}
+}*/
 
-nav ul {
+nav .panels {
 /*    min-width: 600px;*/
     position: relative;
-    display: table;
-    margin: 50px auto;
-    clear: both;
+    margin: 20px;
 }
 
-    nav ul li {
+    nav .panels .nav-item {
+        position: relative;
         list-style: none;
-        float: left;
+        /*float: left;*/
     }
 
         /*set element perspective*/
-        /*nav ul li a {
+        nav .panels .nav-item a {
             width: 100px;
             height: 100px;
             float: left;
@@ -97,10 +90,10 @@ nav ul {
             -moz-perspective: 600px;
             -ms-perspective: 600px;
             perspective: 600px;
-        }*/
+        }
 
         /*set duration, hide backface, & set transform on front class*/
-        nav ul li .front {
+        nav .panels .nav-item .front {
             text-align: center;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -123,7 +116,7 @@ nav ul {
         }
 
         /*rotates element on mouse hover*/
-        nav ul li:hover .front {
+        nav .panels .nav-item:hover .front {
             -webkit-transform: rotateX(0deg) rotateY(180deg);
             -moz-transform: rotateX(0deg) rotateY(180deg);
             -ms-transform: rotateX(0deg) rotateY(180deg);
@@ -131,7 +124,7 @@ nav ul {
         }
 
         /*hides 'back' of icon unless user is hovering*/
-        nav ul li .back {
+        nav .panels .nav-item .back {
             position: absolute;
             top: 0;
             width: inherit;
@@ -159,7 +152,7 @@ nav ul {
         }
 
         /*sets 'back' to use z-index for browsers that do not support transform*/
-        nav ul li:hover .back {
+        nav .panels .nav-item:hover .back {
             z-index: 1;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -167,13 +160,13 @@ nav ul {
             -o-transform: rotateX(0deg) rotateY(0deg);
         }
 
-        nav ul li i {
+        nav .panels .nav-item i {
             line-height: 100px !important;
             color: white;
             vertical-align: middle !important;
         }
 
-        nav ul li span {
+        nav .panels .nav-item span {
             display: inline-block;
             font-family: 'Roboto';
             font-size: 20px;
@@ -185,28 +178,28 @@ nav ul {
             word-wrap: break-word !important;
         }
 
-        nav ul li.color-1 .front,
-        nav ul li.color-1 .back {
+        nav .panels .nav-item.color-1 .front,
+        nav .panels .nav-item.color-1 .back {
             background-color: #5ADED4;
         }
 
-        nav ul li.color-2 .front,
-        nav ul li.color-2 .back {
+        nav .panels .nav-item.color-2 .front,
+        nav .panels .nav-item.color-2 .back {
             background-color: #4DAAAB;
         }
 
-        nav ul li.color-3 .front,
-        nav ul li.color-3 .back {
+        nav .panels .nav-item.color-3 .front,
+        nav .panels .nav-item.color-3 .back {
             background-color: #26596A;
         }
 
-        nav ul li.color-4 .front,
-        nav ul li.color-4 .back {
+        nav .panels .nav-item.color-4 .front,
+        nav .panels .nav-item.color-4 .back {
             background-color: #164442;
         }
 
-        nav ul li.color-5 .front,
-        nav ul li.color-5 .back {
+        nav .panels .nav-item.color-5 .front,
+        nav .panels .nav-item.color-5 .back {
             background-color: #6C98A1;
         }
 
