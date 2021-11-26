@@ -1,154 +1,195 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Allegiant";
+	ViewData["Title"] = "Allegiant";
 }
 
+<script type="text/javascript">
+
+</script>
+
 <div class="relpos container container-fixed">
-    <h2 id="client">Meet Our Client</h2>
-    <h4 style="padding-top: 3%">Client</h4>
-    <p style="padding-top: 2%">Info about our client</p>
+	<h2 id="client">Meet Our Client</h2>
+	<h4 style="padding-top: 3%">Client</h4>
+	<p style="padding-top: 2%">Info about our client</p>
 </div>
 
 <div class="relpos container mt-lg-5">
-    <h2 id="advisors">Our Advisors</h2>
-    <div style="display: flex; justify-content: center;">
-        <h4 style="text-align: left; padding-right: 15%">Professor</h4>
-        <h4 style="text-align: right; padding-left: 15%">Advisor</h4>
-    </div>
+	<h2 id="advisors">Our Advisors</h2>
+	<div style="display: flex; justify-content: center;">
+		<h4 style="text-align: left; padding-right: 15%">Professor</h4>
+		<h4 style="text-align: right; padding-left: 15%">Advisor</h4>
+	</div>
 </div>
 
 <div class="relpos container container-md mt-lg-5">
-    <h2 id="background">Background</h2>
+	<h2 id="background">Background</h2>
 </div>
 
 <div class="relpos container mt-lg-5">
-    <h2 id="problem">Problem & Proposed Solution</h2>
+	<h2 id="problem">Problem & Proposed Solution</h2>
 </div>
 
 <div class="relpos container mt-lg-5">
-    <h2 id="highlights">Highlights</h2>
+	<h2 id="highlights">Highlights</h2>
 </div>
 
 <div class="container mt-lg-5">
-    <h2 id="scope">Scope</h2>
+	<h2 id="scope">Scope</h2>
 </div>
 
 <div class="relpos container mt-lg-5">
-    <h2 id="prototypes">Prototypes</h2>
+	<h2 id="prototypes">Prototypes</h2>
 </div>
 
 <div class="relpos container mt-lg-5">
-    <h2 id="timeline">Timeline</h2>
+	<h2 id="timeline">Timeline</h2>
 
 
 @**********@
 @*Timeline*@
 @**********@
 
-<ul class="relpos timeline">
-    <li>
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-21-2014</p>
-            </div>
-        </div>
-    </li>
+<section class="timeline">
+  <div>
+	<div class="timeline-item reveal fade-bottom">
 
-    <li class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-23-2014</p>
-            </div>
-        </div>
-    </li>
+	  <div class="timeline-img"></div>
 
-    <li>
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-23-2014</p>
-            </div>
-        </div>
-    </li>
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
 
-    <li class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque' capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-27-2014</p>
-            </div>
-        </div>
-    </li>
+	</div> 
 
-    <li>
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Mar-01-2014</p>
-            </div>
-        </div>
-    </li>
+	<div class="timeline-item reveal fade-bottom">
 
-    <li class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.</p>
-            </div>
-            <div class="timeline-footer primary">
-                <p class="text-right">Mar-02-2014</p>
-            </div>
-        </div>
-    </li>
-    <li class="clearfix no-float"></li>
-</ul>
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div>   
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div>  
+
+	<div class="timeline-item reveal fade-bottom">
+
+	  <div class="timeline-img"></div>
+
+	  <div class="timeline-content timeline-card js--fadeInRight">
+		<div class="timeline-img-header">
+		  <h2>Card Title</h2>
+		</div>
+		<div class="date">25 MAY 2016</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+		<button type="button" class="btn btn-info" font color="white">More</button>
+	  </div>
+
+	</div> 
+
+
+
+  </div>
+</section>
 
 </div>

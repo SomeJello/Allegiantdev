@@ -7,7 +7,9 @@ namespace RazorPagesAllegiant.Pages
 
         //private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+
+        //public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel()
         {
             //_logger = logger;
         }
