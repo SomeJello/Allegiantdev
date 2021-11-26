@@ -60,12 +60,6 @@ button.accept-policy {
     background-color: darkcyan; 
 }
 
-
-body {
-    background: #FDF5E6;
-}
-
-
 nav div .panels {
     min-width: 600px;
     position: relative;
@@ -80,11 +74,15 @@ nav div .panels {
         float: left;
     }
 
+    nav div .panels a.active {
+        border-bottom: white 2px solid; 
+    }
         /*set element perspective*/
-        nav div .panels .nav-item a {
+        nav div .panels.active {
             width: 80px;
             height: 80px;
             float: left;
+            border-bottom: 2px solid white;
             /*margin: 0 1px;*/
             -webkit-perspective: 600px;
             -moz-perspective: 600px;
@@ -169,27 +167,27 @@ nav div .panels {
 
         nav div .panels .nav-item.color-1 .front,
         nav div .panels .nav-item.color-1 .back {
-            background-color: #5ADED4;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-2 .front,
         nav div .panels .nav-item.color-2 .back {
-            background-color: #4DAAAB;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-3 .front,
         nav div .panels .nav-item.color-3 .back {
-            background-color: #26596A;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-4 .front,
         nav div .panels .nav-item.color-4 .back {
-            background-color: #164442;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-5 .front,
         nav div .panels .nav-item.color-5 .back {
-            background-color: #6C98A1;
+            background-color: #302f4d;
         }
 
 footer p {
