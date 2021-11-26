@@ -5,9 +5,9 @@
     animation: fadein 2s;
 }
 
-h2::before {
+:target::before {
     display: block;
-    content: " ";
+    content: "";
     margin-top: -260px;
     height: 260px;
     visibility: hidden;
