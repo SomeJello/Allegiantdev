@@ -1,6 +1,6 @@
-﻿.fadeIn {
+﻿/*.fadeIn {
     opacity: 0;
-}
+}*/
 
 :target::before {
     display: block;
