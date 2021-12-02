@@ -15,6 +15,19 @@
     position: relative;
 }
 
+.carousel{
+    margin: auto;
+    width: 70%;
+}
+
+.carousel-control-prev-icon::after {
+    content: "";
+}
+
+.carousel-control-next-icon::after {
+    content: "";
+}
+
 .container {
     text-align: center;
     /*padding: 5%;*/
