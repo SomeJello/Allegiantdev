@@ -8,7 +8,9 @@
     @*<link rel="icon" type="image/svg" href="@Url.Content("~/favicon.svg")" />*@
 
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css" rel="stylesheet"/>
+    <!-- Now downloaded as a direct link -->
+    <link href="~/lib/md5-bootstrap/css/mdb.min.css" rel="stylesheet" /> 
+    @*<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css" rel="stylesheet" />*@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -19,7 +21,24 @@
 </head>
 
 <body>
-    <header style="padding-bottom: 10%">
+
+    <header>
+        <nav class ="navbar- navbar-expand-lg navbar-dark fixed-top bg-adevprimary">
+            <div class="container">
+                <a class ="nav-brand" href="/">
+                    <img src="~/images/logo/plain/SVG/logo_plain.svg" class="d-inline-block align-top" width="70" alt="Allegiant.Dev LOGO"/>
+                </a>
+                <h1 style="font-family:Earth Orbiter;">Allegiant.DEV</h1>
+
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+@*    <header style="padding-bottom: 10%">
         <!-- Color scheme from https://adobe.ly/2lL5M7P -->
 
         <nav id="siteNav" class="navbar fixed-top navbar-expand-lg navbar-toggleable-lg navbar-dark nav_bg_color border-bottom shadow p-3 mb-5">
@@ -35,10 +54,10 @@
                 <div id="navbar-scrollspy" class="panels navbar-collapse collapse d-inline-flex justify-content-between">
                     <a href="#client">
                         <div class="nav-item color-1">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-user fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:1.5em;">Client</span>
                                 </div>
                         </div>
@@ -46,10 +65,10 @@
 
                     <a href="#advisors">
                         <div class="nav-item color-2">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-handshake-o fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:1.15em;">Advisors</span>
                                 </div>
                         </div>
@@ -57,10 +76,10 @@
 
                     <a href="#background">
                         <div class="nav-item color-3">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-book fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:0.8em;">Background</span>
                                 </div>
                         </div>
@@ -68,7 +87,7 @@
 
                     <a href="#problem">
                         <div class="nav-item color-4">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-question-circle-o fa-3x"></i>
                                 </div>
                                 <div class="back shadow-5-strong">
@@ -79,10 +98,10 @@
 
                     <a href="#highlights">
                         <div class="nav-item color-5">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-lightbulb-o fa-3x"></i>
                                 </div>
-                                <div class="back shadow-lg">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:0.95em;">Highlights</span>
                                 </div>
                         </div>
@@ -90,10 +109,10 @@
 
                     <a href="#scope">
                         <div class="nav-item color-1">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-arrows-h fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:1.5em;">Scope</span>
                                 </div>
                         </div>
@@ -101,10 +120,10 @@
 
                     <a href="#prototypes">
                         <div class="nav-item color-2">
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-cogs fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:0.875em;">Prototypes</span>
                                 </div>
                         </div>
@@ -113,10 +132,10 @@
                     <a href="#timeline">
                         <div class="nav-item color-3">
 
-                                <div class="front shadow-5-strong">
+                                <div class="front shadow-5-strong hover-shadow">
                                     <i class="fa fa-clock-o fa-3x"></i>
                                 </div>
-                                <div class="back shadow-5-strong">
+                                <div class="back shadow-5-strong hover-shadow">
                                     <span style="font-size:1.15em;">Timeline</span>
                                 </div>
                         </div>
@@ -125,7 +144,7 @@
 
             </div>
         </nav>
-    </header>
+    </header>*@
 
     <div class="container">
         <main role="main" class="pb-3" style="padding:20px;">
