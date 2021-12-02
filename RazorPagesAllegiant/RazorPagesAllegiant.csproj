@@ -17,4 +17,12 @@
     <None Remove="wwwroot\css\Shared\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+
 </Project>

@@ -56,10 +56,9 @@ button.accept-policy {
 /*Temporarily commented out warning lines*/
 /****************************************/
 
-body {
-    background: #FDF5E6;
+.nav_bg_color {
+    background-color: darkcyan; 
 }
-
 
 nav div .panels {
     min-width: 600px;
@@ -68,20 +67,23 @@ nav div .panels {
 }
 
     nav div .panels .nav-item {
-        width: 100px;
-        height: 100px;
-        margin: 0 10px;
+        width: 80px;
+        height: 80px;
+        margin: 4px;
         position: relative;
         float: left;
     }
 
+    nav div .panels a.active {
+        border-bottom: white 2px solid; 
+    }
         /*set element perspective*/
-        nav div .panels .nav-item a {
-            width: 100px;
-            height: 100px;
+        nav div .panels.active {
+            width: 80px;
+            height: 80px;
             float: left;
-            margin: 0 5px;
-            /*margin: 0 5px;*/
+            border-bottom: 2px solid white;
+            /*margin: 0 1px;*/
             -webkit-perspective: 600px;
             -moz-perspective: 600px;
             -ms-perspective: 600px;
@@ -147,16 +149,17 @@ nav div .panels {
         }
 
         nav div .panels .nav-item i {
-            line-height: 100px !important;
+            line-height: 80px !important;
             color: white;
             vertical-align: middle !important;
         }
 
         nav div .panels .nav-item span {
             display: inline-block;
-            font-stretch: inherit;
+            /*font-size: 0.825em;*/
+            font-size-adjust: inherit;
             font-weight: 300;
-            line-height: 100px;
+            line-height: 80px;
             color: white;
             vertical-align: middle;
             word-wrap: anywhere !important;
@@ -164,27 +167,27 @@ nav div .panels {
 
         nav div .panels .nav-item.color-1 .front,
         nav div .panels .nav-item.color-1 .back {
-            background-color: #5ADED4;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-2 .front,
         nav div .panels .nav-item.color-2 .back {
-            background-color: #4DAAAB;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-3 .front,
         nav div .panels .nav-item.color-3 .back {
-            background-color: #26596A;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-4 .front,
         nav div .panels .nav-item.color-4 .back {
-            background-color: #164442;
+            background-color: #302f4d;
         }
 
         nav div .panels .nav-item.color-5 .front,
         nav div .panels .nav-item.color-5 .back {
-            background-color: #6C98A1;
+            background-color: #302f4d;
         }
 
 footer p {
