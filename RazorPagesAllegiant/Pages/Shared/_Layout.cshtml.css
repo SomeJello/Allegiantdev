@@ -75,7 +75,7 @@ button.accept-policy {
 panels {
     min-width: 600px;
     position: relative;
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
     .panels .nav-item {
