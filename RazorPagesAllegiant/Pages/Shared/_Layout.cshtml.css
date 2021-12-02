@@ -1,7 +1,12 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.navbar-brand{
+    margin-right: unset;
+}
+
 a.navbar-brand {
+    margin-right: unset;
     white-space: normal;
     text-align: center;
     word-break: break-all;
@@ -44,6 +49,12 @@ button.accept-policy {
     line-height: inherit;
 }
 
+/*This is necessary to force the toggle icon to appear*/
+.navbar-dark .navbar-toggler-icon, .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
 .footer {
     position: relative;
     bottom: 0;
@@ -57,7 +68,8 @@ button.accept-policy {
 /****************************************/
 
 .nav_bg_color {
-    background-color: darkcyan; 
+    background: linear-gradient(45deg, #302f4d, #3943b7, #e56399, #28afb2, #a9fdac);
+    /*background: linear-gradient( 45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100% );*/
 }
 
 nav div .panels {
