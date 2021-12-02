@@ -72,7 +72,137 @@ button.accept-policy {
     /*background: linear-gradient( 45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100% );*/
 }
 
-nav div .panels {
+panels {
+    min-width: 600px;
+    position: relative;
+    margin: 20px;
+}
+
+    .panels .nav-item {
+        width: 80px;
+        height: 80px;
+        margin: 4px;
+        position: relative;
+        float: left;
+    }
+
+    .panels a.active {
+        border-bottom: white 2px solid;
+    }
+    /*set element perspective*/
+    .panels.active {
+        width: 80px;
+        height: 80px;
+        float: left;
+        border-bottom: 2px solid white;
+        /*margin: 0 1px;*/
+        -webkit-perspective: 600px;
+        -moz-perspective: 600px;
+        -ms-perspective: 600px;
+        perspective: 600px;
+    }
+
+    /*set duration, hide backface, & set transform on front class*/
+    .panels .nav-item .front {
+        text-align: center;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        -ms-transform: rotateX(0deg) rotateY(0deg);
+        -o-transform: rotateX(0deg) rotateY(0deg);
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+
+    /*rotates element on mouse hover*/
+    .panels .nav-item:hover .front {
+        -webkit-transform: rotateX(0deg) rotateY(180deg);
+        -moz-transform: rotateX(0deg) rotateY(180deg);
+        -ms-transform: rotateX(0deg) rotateY(180deg);
+        -o-transform: rotateX(0deg) rotateY(180deg);
+    }
+
+    /*hides 'back' of icon unless user is hovering*/
+    .panels .nav-item .back {
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        text-align: center;
+        z-index: -1;
+        -webkit-transform: rotateX(0deg) rotateY(-180deg);
+        -moz-transform: rotateX(0deg) rotateY(-180deg);
+        -ms-transform: rotateX(0deg) rotateY(-180deg);
+        -o-transform: rotateX(0deg) rotateY(-180deg);
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+
+    /*sets 'back' to use z-index for browsers that do not support transform*/
+    .panels .nav-item:hover .back {
+        z-index: 1;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        -ms-transform: rotateX(0deg) rotateY(0deg);
+        -o-transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    .panels .nav-item i {
+        line-height: 80px !important;
+        color: white;
+        vertical-align: middle !important;
+    }
+
+    .panels .nav-item span {
+        display: inline-block;
+        /*font-size: 0.825em;*/
+        font-size-adjust: inherit;
+        font-weight: 300;
+        line-height: 80px;
+        color: white;
+        vertical-align: middle;
+        word-wrap: anywhere !important;
+    }
+
+    .panels .nav-item.color-1 .front,
+    .panels .nav-item.color-1 .back {
+        background-color: #302f4d;
+    }
+
+    .panels .nav-item.color-2 .front,
+    .panels .nav-item.color-2 .back {
+        background-color: #302f4d;
+    }
+
+    .panels .nav-item.color-3 .front,
+    .panels .nav-item.color-3 .back {
+        background-color: #302f4d;
+    }
+
+    .panels .nav-item.color-4 .front,
+    .panels .nav-item.color-4 .back {
+        background-color: #302f4d;
+    }
+
+    .panels .nav-item.color-5 .front,
+    .panels .nav-item.color-5 .back {
+        background-color: #302f4d;
+    }
+
+/*nav div .panels {
     min-width: 600px;
     position: relative;
     margin: 20px;
@@ -88,22 +218,22 @@ nav div .panels {
 
     nav div .panels a.active {
         border-bottom: white 2px solid; 
-    }
+    }*/
         /*set element perspective*/
-        nav div .panels.active {
+        /*nav div .panels.active {
             width: 80px;
             height: 80px;
             float: left;
-            border-bottom: 2px solid white;
+            border-bottom: 2px solid white;*/
             /*margin: 0 1px;*/
-            -webkit-perspective: 600px;
+            /*-webkit-perspective: 600px;
             -moz-perspective: 600px;
             -ms-perspective: 600px;
             perspective: 600px;
-        }
+        }*/
 
         /*set duration, hide backface, & set transform on front class*/
-        nav div .panels .nav-item .front {
+        /*nav div .panels .nav-item .front {
             text-align: center;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -118,18 +248,18 @@ nav div .panels {
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-        }
+        }*/
 
         /*rotates element on mouse hover*/
-        nav div .panels .nav-item:hover .front {
+        /*nav div .panels .nav-item:hover .front {
             -webkit-transform: rotateX(0deg) rotateY(180deg);
             -moz-transform: rotateX(0deg) rotateY(180deg);
             -ms-transform: rotateX(0deg) rotateY(180deg);
             -o-transform: rotateX(0deg) rotateY(180deg);
-        }
+        }*/
 
         /*hides 'back' of icon unless user is hovering*/
-        nav div .panels .nav-item .back {
+        /*nav div .panels .nav-item .back {
             position: absolute;
             top: 0;
             width: inherit;
@@ -149,10 +279,10 @@ nav div .panels {
             backface-visibility: hidden;
             -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-        }
+        }*/
 
         /*sets 'back' to use z-index for browsers that do not support transform*/
-        nav div .panels .nav-item:hover .back {
+        /*nav div .panels .nav-item:hover .back {
             z-index: 1;
             -webkit-transform: rotateX(0deg) rotateY(0deg);
             -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -167,9 +297,9 @@ nav div .panels {
         }
 
         nav div .panels .nav-item span {
-            display: inline-block;
+            display: inline-block;*/
             /*font-size: 0.825em;*/
-            font-size-adjust: inherit;
+            /*font-size-adjust: inherit;
             font-weight: 300;
             line-height: 80px;
             color: white;
@@ -200,7 +330,7 @@ nav div .panels {
         nav div .panels .nav-item.color-5 .front,
         nav div .panels .nav-item.color-5 .back {
             background-color: #302f4d;
-        }
+        }*/
 
 footer p {
     font-size: .6em;

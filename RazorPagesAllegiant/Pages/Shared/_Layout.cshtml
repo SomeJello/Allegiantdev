@@ -23,82 +23,117 @@
 <body>
 
 @*    <header style="padding-bottom:10%;">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav_bg_color shadow-5-strong">
-            <div class="container">
-                <div class="row">
-                    <div class="col-1">
-                        <a class="nav-brand" href="/">
-                            <img src="~/images/logo/plain/SVG/logo_plain.svg" class="d-inline-block align-top img-fluid" width=70 height=auto alt="Allegiant.Dev LOGO" />
-                        </a>
-                    </div>
-                    <div class="col-4">
-                        <h1 class="text-white text-left pt-4" style="font-family:Earth Orbiter; font-size:35px;">Allegiant.DEV</h1>
-                    </div>
+        <div class="container">
 
+            <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-dark fixed-top nav_bg_color shadow-5-strong">
+                <a class="navbar-brand" href="/">
+                    <img src="~/images/logo/plain/SVG/logo_plain.svg" class="d-inline-block align-top" width=70 alt="Allegiant.Dev LOGO" />
+                    <text style="font-family:Earth Orbiter; font-size:35px;">Allegiant.<text style="color:#a9fdac;">Dev</text></text>
+                </a>
 
-                    <div class="container">
-                        <div class="row">
+                <button class="col navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                            <div class="col">
-                                <button class="col navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                <div class="panels navbar-collapse collapse" id="navabarSupportedContent">
+
+                    <a href="#client">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-user fa-3x"></i>
                             </div>
-
-                            <div id="navbar-scrollspy" class="col navbar-collapse collapse d-inline-flex justify-content-between">
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#client">
-                                            <p>Client</p>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.5em;">Client</span>
                             </div>
                         </div>
+                    </a>
+
+                    <a href="#advisors">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-handshake-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.15em;">Advisors</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#background">
+                        <div class="nav-item color-3">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.8em;">Background</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#problem">
+                        <div class="nav-item color-4">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-question-circle-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong">
+                                <span style="font-size:1.1em;">Problem</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#highlights">
+                        <div class="nav-item color-5">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-lightbulb-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.95em;">Highlights</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#scope">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-arrows-h fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.5em;">Scope</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#prototypes">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-cogs fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.875em;">Prototypes</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#timeline">
+                        <div class="nav-item color-3">
+
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-clock-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.15em;">Timeline</span>
+                            </div>
+                        </div>
+                    </a>
 
 
-                    </div>
+
                 </div>
+            </nav>
 
 
-            </div>
-        </nav>
+
+        </div>
 
 
     </header>*@
@@ -111,7 +146,7 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-lg navbar-dark nav_bg_color border-bottom shadow p-3 mb-5">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index" style="display:flex; justify-content:center; margin:0px;">
-                    <img alt="Brand" class="brandImage d-inline-block align-top" width="100" height=auto src="~/images/logo/plain/SVG/logo_plain.svg" />
+                    <img alt="Brand" class="brandImage d-inline-block align-top" width="100" src="~/images/logo/plain/SVG/logo_plain.svg" />
                 </a>
 
                 <h1 class="text-white text-left pt-4" style="font-family:Earth Orbiter; font-size:35px;">Allegiant.<text style="color:#a9fdac;">DEV</text></h1>
