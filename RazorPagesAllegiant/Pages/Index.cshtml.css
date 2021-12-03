@@ -2,6 +2,10 @@
     opacity: 0;
 }*/
 
+body hr {
+    background-color: #95A3A4;
+}
+
 :target::before {
     display: block;
     content: "";
@@ -141,7 +145,7 @@ header {
 
     .timeline::before {
         content: '';
-        background: #C5CAE9;
+        background: linear-gradient(45deg, #302f4d, #3943b7, #e56399, #28afb2, #a9fdac);
         width: 5px;
         height: 95%;
         position: absolute;
@@ -206,7 +210,7 @@ header {
 .timeline-img {
     width: 30px;
     height: 30px;
-    background: #3F51B5;
+    background: #a9fdac;
     border-radius: 50%;
     position: absolute;
     left: 50%;

@@ -61,6 +61,7 @@ button.accept-policy {
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
+    background-color: #495159; /*CHARCOAL*/
 }
 
 /******************************************/
@@ -335,4 +336,5 @@ panels {
 footer p {
     font-size: .6em;
     text-align: center;
+    color: #fff;
 }
