@@ -370,4 +370,8 @@
     <None Include="wwwroot\lib\md5-bootstrap\src\scss\mdb.free.scss" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\assets\profile\" />
+  </ItemGroup>
+
 </Project>
