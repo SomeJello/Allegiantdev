@@ -234,8 +234,7 @@ header {
     }
 
 .timeline-item .timeline-img-header {
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
-    background-size: cover;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://picsum.photos/id/1/1000/800/") center center no-repeat;
 }
 
 .timeline-img-header {
@@ -245,6 +244,94 @@ header {
 }
 
     .timeline-img-header h2 {
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+    }
+
+.timeline-item .timeline-img-header1 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://cdn.pixabay.com/photo/2019/01/31/20/52/web-3967926_960_720.jpg") center center no-repeat;
+}
+
+.timeline-img-header1 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .timeline-img-header1 h2 {
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+    }
+
+.timeline-item .timeline-img-header2 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") center center no-repeat;
+}
+
+.timeline-img-header2 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .timeline-img-header2 h2 {
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+    }
+
+.timeline-item .timeline-img-header3 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://st.depositphotos.com/1032463/3125/i/950/depositphotos_31257759-stock-photo-designer-drawing-website-development-wireframe.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header3 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .timeline-img-header3 h2 {
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+    }
+
+.timeline-item .timeline-img-header4 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://st.depositphotos.com/1032463/1274/i/950/depositphotos_12743408-stock-photo-website-development-project-on-whiteboard.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header4 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .timeline-img-header4 h2 {
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+    }
+
+.timeline-item .timeline-img-header5 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://st.depositphotos.com/1001201/2319/i/950/depositphotos_23199888-stock-photo-modern-business-concept.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header5 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .timeline-img-header5 h2 {
         color: #FFFFFF;
         position: absolute;
         bottom: 5px;
