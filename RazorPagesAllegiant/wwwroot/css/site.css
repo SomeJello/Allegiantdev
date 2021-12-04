@@ -23,3 +23,15 @@ body {
     height: 100%;
     font-family: Poppins, Roboto, Calibri;
 }
+
+.prof.advi_card {
+    
+}
+
+.advi_card {
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    float: right;
+}
