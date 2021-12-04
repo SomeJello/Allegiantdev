@@ -23,7 +23,12 @@ body {
     height: 100%;
     font-family: Poppins, Roboto, Calibri;
 }
-
+.client_card {
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
 .prof_card {
     min-width: 300px;
     max-width: 300px;
