@@ -6,126 +6,252 @@
     <title>@ViewData["Title"] - Allegiant</title>
     <link rel="icon" type="image/png" href="@Url.Content("~/favicon.png")" />
     @*<link rel="icon" type="image/svg" href="@Url.Content("~/favicon.svg")" />*@
+
+    <!-- MDB -->
+    <!-- Now downloaded as a direct link -->
+    <link href="~/lib/md5-bootstrap/css/mdb.min.css" rel="stylesheet" />
+    @*<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css" rel="stylesheet" />*@
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RazorPagesAllegiant.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" />
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+
 </head>
 
-
 <body>
-    <header style="padding-bottom: 10%">
-        <!-- Color scheme from https://adobe.ly/2lL5M7P -->
 
-        <nav class="navbar fixed-top navbar-expand-md navbar-toggleable-md navbar-dark nav_bg_color border-bottom shadow p-3 mb-5">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index" style="display:flex; justify-content:center;">
-                    <img alt="Brand" class="brandImage d-inline-block align-top" height="80" src="~/images/logo/typelogo/SVG/typelogo_dkbg_lgreen.svg" />
+@*    <header style="padding-bottom:10%;">
+        
+
+            <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark fixed-top nav_bg_color shadow-5-strong">
+                <div class="d-flex justify-content-center">
+                <a class="navbar-brand" style="display:flex; justify-content:center; margin:0px;" href="/">
+                    <img src="~/images/logo/plain/SVG/logo_plain.svg" class="d-inline-block align-top" width=70 alt="Allegiant.Dev LOGO" />
+                    <text style="font-family:Earth Orbiter; font-size:35px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Allegiant.<text style="color:#a9fdac;">Dev</text></text>
                 </a>
 
-                @*TODO: Navbar collapse is scuffed and looks like it snaps back *@
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="panels navbar-collapse collapse d-md-inline-flex justify-content-between">
-                    <div class="nav-item color-1">
-                        <a href="#client">
-                            <div class="front shadow-lg">
+                <div id="navbar-scrollspy" class="panels navbar-collapse collapse d-lg-inline-flex justify-content-between">
+
+                    <a class="nav-link" href="#client">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-user fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:1.5em;">Client</span>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div class="nav-item color-2">
-                        <a href="#advisors">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#advisors">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-handshake-o fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:1.15em;">Advisors</span>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div class="nav-item color-3">
-                        <a href="#background">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#background">
+                        <div class="nav-item color-3">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-book fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:0.8em;">Background</span>
                             </div>
-                        </a>
+                        </div>
+                    </a>
 
-                    </div>
-                    <div class="nav-item color-4">
-                        <a href="#problem">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#problem">
+                        <div class="nav-item color-4">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-question-circle-o fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong">
                                 <span style="font-size:1.1em;">Problem</span>
                             </div>
-                        </a>
+                        </div>
+                    </a>
 
-                    </div>
-                    <div class="nav-item color-5">
-                        <a href="#highlights">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#highlights">
+                        <div class="nav-item color-5">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-lightbulb-o fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:0.95em;">Highlights</span>
                             </div>
-                        </a>
+                        </div>
+                    </a>
 
-                    </div>
-                    <div class="nav-item color-1">
-                        <a href="#scope">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#scope">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-arrows-h fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:1.5em;">Scope</span>
                             </div>
-                        </a>
+                        </div>
+                    </a>
 
-                    </div>
-                    <div class="nav-item color-2">
-                        <a href="#prototypes">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#prototypes">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-cogs fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:0.875em;">Prototypes</span>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div class="nav-item color-3">
-                        <a href="#timeline">
-                            <div class="front shadow-lg">
+                    <a class="nav-link" href="#timeline">
+                        <div class="nav-item color-3">
+
+                            <div class="front shadow-5-strong hover-shadow">
                                 <i class="fa fa-clock-o fa-3x"></i>
                             </div>
-                            <div class="back shadow-lg">
+                            <div class="back shadow-5-strong hover-shadow">
                                 <span style="font-size:1.15em;">Timeline</span>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+
+
+
+                </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+    </header>*@
+
+
+
+    <header style="padding-bottom: 10%">
+        <!-- Color scheme from https://adobe.ly/2lL5M7P -->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-lg navbar-dark nav_bg_color shadow p-3 mb-5 d-lg-flex align-content-center justify-content-center">
+            <div class="container d-flex align-content-center justify-content-center flex-grow-1">
+                <a class=" order-1 navbar-brand" asp-area="" asp-page="/Index">
+                    <img alt="Brand" class="brandImage d-inline-block align-top" width="100" src="~/images/logo/plain/SVG/logo_plain.svg" />
+                    <text style="font-family:Earth Orbiter; font-size:35px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Allegiant.<text style="color:#a9fdac;">Dev</text></text>
+                </a>
+
+
+
+                <button class="order-2 navbar-toggler my-2 flex-fill" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbar-scrollspy" class="order-3 panels navbar-collapse collapse d-lg-inline-flex align-content-center flex-fill justify-content-center">
+                    <a href="#client">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-user fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.5em;">Client</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#advisors">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-handshake-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.15em;">Advisors</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#background">
+                        <div class="nav-item color-3">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.8em;">Background</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#problem">
+                        <div class="nav-item color-4">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-question-circle-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong">
+                                <span style="font-size:1.1em;">Problem</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#highlights">
+                        <div class="nav-item color-5">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-lightbulb-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.95em;">Highlights</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#scope">
+                        <div class="nav-item color-1">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-arrows-h fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.5em;">Scope</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#prototypes">
+                        <div class="nav-item color-2">
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-cogs fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:0.875em;">Prototypes</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#timeline">
+                        <div class="nav-item color-3">
+
+                            <div class="front shadow-5-strong hover-shadow">
+                                <i class="fa fa-clock-o fa-3x"></i>
+                            </div>
+                            <div class="back shadow-5-strong hover-shadow">
+                                <span style="font-size:1.15em;">Timeline</span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
             </div>
         </nav>
-
-
     </header>
-
 
     <div class="container">
         <main role="main" class="pb-3" style="padding:20px;">
@@ -134,8 +260,7 @@
     </div>
 
 
-
-    <footer class="border-top footer text-muted">
+    <footer class="footer text-white">
         <div class="container">
             &copy; 2021 - AllegiantDev - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
