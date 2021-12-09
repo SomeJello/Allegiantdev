@@ -24,8 +24,8 @@ body {
     font-family: Poppins, Roboto, Calibri;
 }
 .client_card {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 700px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
 }
