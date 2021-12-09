@@ -435,3 +435,47 @@ blockquote {
         opacity: 1;
     }
 }
+
+
+/* --------------------------------------------- *
+ * Accordion                                     *  
+ * --------------------------------------------- */
+
+.accodrion {
+    background: #302f4d;
+}
+
+
+.accordion-item {
+    background: #302f4d;
+    border-width: thin;
+    border-color: white;
+}
+
+.accordion-body {
+    color: #fff;
+    border: none; 
+    background: #302f4d;
+}
+
+.accordion-button {
+    background: #302f4d;
+    border: none; 
+    display: block;
+    color: white;
+}
+
+    .accordion-button.collapsed {
+        background: linear-gradient(45deg, #302f4d, #3943b7, #e56399, #28afb2, #a9fdac);
+        border: none; 
+    }
+
+
+.row img {
+    min-height: contain; 
+    min-width: 200px; 
+}
+
+.collapseicon{
+    color: white; 
+}
