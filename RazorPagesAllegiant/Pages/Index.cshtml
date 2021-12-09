@@ -5,313 +5,63 @@
 }
 
 
-<script type="text/javascript">
-</script>
+<!--Font Aweso!importantmportante Icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+@*<link rel="stylesheet" href="~/css/font-awesome.css" />*@
 
 
-<div>
-    <div>
-        @*CAROUSEL*@
-        <div id="carouselTeam" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="7" aria-label="Slide 8"></button>
-            </div>
-            <div class="carousel-inner rounded-pill">
-                <div class="carousel-item active">
-                    <div class="container-fluid bg-dark p-5">
+<div data-spy="scroll" class="relpos" data-target="#navbar-scrollspy" data-offset="0">
+
+    <div id="team" class="text-white container container-md mt-lg-5 mb-lg-5">
+        <h2>Meet Allegiant.Dev</h2>
+
+        <!-------------------------------- Accordion -------------------------------->
+        <div class="accordion">
+            @*Profile : Pix*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <div class="row d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Pix Mapanao</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em;"><code style="color:white;">Project Manager | Full-Stack Lead Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-layer-group mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-chalkboard-teacher mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
                         <div class="row">
                             <div class="col-1">
                             </div>
-                            <div class="col-3">
+                            <div class="col-4">
                                 <div class="row">
-                                    <img class="img-fluid rounded-circle shadow-2-strong" src="https://thispersondoesnotexist.com/image">
+                                    <img class="img-fluid rounded-circle" src="~/images/assets/profile/pm/profile.png" style="width:75%;"/>
+                                    @*<img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">*@
                                 </div>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <i class="bi bi-github" style="color: white;">Test</i>
-                                    </div>
-                                    <div class="col-8">
-                                        <p class="text-center text-white">test text</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
                             </div>
                             <div class="col-6">
-                                <h2 class="text-center text-white">Fred Coolguy</h2>
-                                <hr class="text-white" />
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white">Front End Dev</p>
-                                            <p class="text-center text-white">DevOps Lead</p>
+                                        <div class="col-2">
                                         </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
-                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lobortis mattis aliquam faucibus purus in massa.
-                                                At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
-                                                faucibus purus in massa.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do. Lobortis mattis aliquam
-                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
-                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white">Front End Dev</p>
-                                            <p class="text-center text-white">DevOps Lead</p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lobortis mattis aliqua faucibus purus in massa.
-                                                At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
-                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
-                                                Rhoncus urna neque viverra justo nec ultrices.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid bg-dark p-5">
-                        <div class="row">
-                            <div class="col-1">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid img-thumbnail shadow-lg rounded-circle" src="https://www.smscentral.com.au/wp-content/uploads/placeholder-300x300.png">
-                            </div>
-                            <div class="col-1">
-                            </div>
-                            <div class="col-6">
-                                <h2 class="text-center text-white">Name</h2>
-                                <hr class="text-white" />
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h4 class="text-center text-white">Role:</h4>
-                                            <p class="text-center text-white"></p>
-                                        </div>
-                                        <div class="col-8">
-                                            <h4 class="text-center text-white">About:</h4>
-                                            <p class="text-center text-white">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore
-                                                magna aliqua. Neque aliquam vestibulum morbi
-                                                blandit cursus risus at ultrices. Sed vulputate
-                                                mi sit amet mauris commodo. Elit sed vulputate mi sit.
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <hr /> 
+                                            <p class="text-center text-white" style="font-size:0.8em;">
+                                                Highly motivated and passionate IT Professional with experience in software development. I believe it is time for me to be part of a 
+                                                bigger organization that can utilize and further my skillsets in support of the corporate vision and mission. My specialization is 
+                                                developing with Microsoft Technologies. 
+                                                <br />
+                                                <hr />
+                                                <text style="font-size:0.8em;"><code style="color:white;"> C# | HTML | CSS | Javascript <br /> ASP.NET MVC, Razor Pages, Blazor, Web API <br /> MSSQL | Azure</code></text>
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2 my-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2 my-2"></i></a>
                                             </p>
                                         </div>
                                     </div>
@@ -323,150 +73,436 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeam" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselTeam" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            @*Profile : Eric*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Eric Marlette</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em;"><code style="color:white;">Scrum Master | Full-Stack Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-layer-group mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-tasks mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Keith Valdes*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Keith Valdes</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em"><code style="color:white;">Front-End Lead Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-window-restore mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Stephen*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Stephen Gibson</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em"><code style="color:white;">DevOps Lead | API Lead Back-End Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-globe mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-cogs mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Nathan*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Nathan Hidalgo</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em"><code style="color:white;">Back-End Lead Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-database mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Jonathan*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Jonathan Lopez</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em"><code style="color:white;">Scrum Master | Back-End Developer | Q/A Development Testing Lead</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-database mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-tasks mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Antonio*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Antonio Castaneda</text></div>
+                            <div class="col-6 text-right"><text style="font-size:1em"><code style="color:white;">Front-End UI/UX Lead | Front-End Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-mobile-alt mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-users mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*Profile : Emanuel*@
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-4 text-left"><text style="font-size:1.25em;">Emanuel Onofre</text></div>
+                            <div class="col-6 text-right"><text style="font-size:0.8em"><code style="color:white;">Front-End Developer</code></text></div>
+                            <div class="col-2 text-right">
+                                <i class="collapseicon fas fa-code mx-2 float-end"></i>
+                                <i class="collapseicon fas fa-window-restore mx-2 float-end"></i>
+                            </div>
+                        </div>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-1">
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img class="img-fluid rounded-circle" src="https://thispersondoesnotexist.com/image" style="width:75%;">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-2">
+                                        </div>
+                                        <div class="col-10">
+                                            <h4 class="text-center text-white">About</h4>
+                                            <p class="text-center text-white">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam
+                                                faucibus purus in massa. At lectus urna duis convallis convallis tellus.
+                                                Rhoncus urna neque viverra justo nec ultrices.
+                                                <br />
+                                                <hr /> 
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-linkedin fa-2x mx-2"></i></a>
+                                                <a href="" target="_blank"><i class="collapseicon fab fa-github-square fa-2x mx-2"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-<div class="relpos fadeIn container mt-lg-5">
-    <h2 id="advisors">Our Advisors</h2>
-    <div style="display: flex; justify-content: center;">
-        <h4 style="text-align: left; padding-right: 15%">Professor</h4>
-        <h4 style="text-align: right; padding-left: 15%">Advisor</h4>
     </div>
-</div>
 
-<div class="relpos fadeIn container container-md mt-lg-5">
-    <h2 id="background">Background</h2>
-    <p style="padding-top: 2%">So we were tasked with creating a new church management operations system, ChurchPoint, that
-        would be a operational efficenty system that could service different types of church and regardless of size. This system would 
-        include specific functions that the client would like that other church management systems could not offer.</p>
-</div>
+        <hr />
 
-            @*ADVISORS*@
-            <div id="advisors" class="relpos text-white container container-md mt-lg-5 mb-lg-5">
-                <h2>Our Advisors</h2>
+        <div data-spy="scroll" class="relpos" data-target="#navbar-scrollspy" data-offset="0">
+
+            @*CLIENT*@
+            <div id="client" class="relpos text-white container container-md mt-lg-5 mb-lg-5">
+                <h2>Meet Our Client</h2>
                 <div style="display: flex; justify-content: center">
-                    <div class="prof_card">
-                        <h4 style="text-align: center;">Professor</h4>
-                        <img src="~/images/assets/profile/profChris.jpeg" alt="Grove Photo" style="width:50%; border-radius: 50%;">
-                        <h1>Chris Grove</h1>
-                        <p class="title">Professor</p>
-                        <p>Sacramento State University</p>
-                        <a href="https://www.linkedin.com/in/chrisbgrove" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-        
-                    <div class="advi_card">
-                        <h4 style="text-align: center;">Advisor</h4>
-                        <img src="~/images/assets/profile/profLim.jfif" alt="Lim Photo" style="width:50%; border-radius: 50%;">
-                        <h1>Yongwhan Lim</h1>
-                        <p class="title">Lecturer</p>
-                        <p>Sacramento State University</p>
-                        <a href="https://www.linkedin.com/in/yongwhan-lim-09855328" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <div class="client_card">
+                        <img src="~/images/assets/profile/profChris.jpeg" alt="Client Photo" style="width:50%; border-radius: 50%;">
+                        <h1>Jun Pacifico</h1>
+                        <p class="title">Client</p>
+                        <p>Allegiant Church Pastor</p>
                     </div>
                 </div>
             </div>
 
             <hr />
 
-            @*BACKGROUND*@
-            <div id="background" class="relpos text-white container container-md mt-lg-5 mb-lg-5">
-                <div class="row">
-                    <h2>Background</h2>
-                </div>
-                <div class="row">
-                    <div class="col-2">
-                    </div>
-                    <div class="col-8">
-                        <p style="padding-top: 2%">
-                            So we were tasked with creating a new church management operations system, ChurchPoint, that
-                            would be a operational efficenty system that could service different types of church and regardless of size. This system would
-                            include specific functions that the client would like that other church management systems could not offer.
-                        </p>
-                    </div>
-                    <div class="col-2">
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <hr />
-
-        @*PROBLEM*@
-        <div id="problem" class="relpos text-white container container-md mt-lg-5 mb-lg-5">
-            <div class="row">
-                <h2>Problem & Proposed Solution</h2>
+    <!------------------------------ ADVISORS ------------------------------>
+    <div id="advisors" class="text-white container container-md mt-lg-5 mb-lg-5">
+        <h2>Our Advisors</h2>
+        <div style="display: flex; justify-content: center">
+            <div class="prof_card">
+                <h4 style="text-align: center;">Professor</h4>
+                <img src="~/images/assets/profile/profChris.jpeg" alt="Grove Photo" style="width:50%; border-radius: 50%;">
+                <h1>Chris Grove</h1>
+                <p class="title">Professor</p>
+                <p>Sacramento State University</p>
+                <a href="https://www.linkedin.com/in/chrisbgrove" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
-            <div class="row mt-lg-5">
-                <div class="col-1">
-                </div>
-                <div class="col-4">
-                    <h4 style="text-align: center" ;>The Problem </h4>
-                    <ol style="text-align: left;">
-                        <li>The current church managment systems are entirely dependent on the size and function the church wants to perform.</li>
-                        <li>Current church management systems targeted only specific or general functions of a church, which may not be sutiable in a particular needs of a church.</li>
-                    </ol>
-                </div>
-                <div class="col-2">
-                </div>
-                <div class="col-4">
-                    <h4 style="text-align: center" ;>The Proposed Solution</h4>
-                    <p style="text-align: center;" padding-top: 2%">
-                        Is to create a church management system that be a process-driven (based on discipleship church) software that contains
-                        a service-oriented information system that was robust. This system would be architected to be extensible, flexible
-                        security-compliant, and adaptable to any church environment no matter the size of the church.
-                    </p>
-                </div>
-                <div class="col-1">
-                </div>
+
+            <div class="advi_card">
+                <h4 style="text-align: center;">Advisor</h4>
+                <img src="~/images/assets/profile/profLim.jfif" alt="Lim Photo" style="width:50%; border-radius: 50%;">
+                <h1>Yongwhan Lim</h1>
+                <p class="title">Lecturer</p>
+                <p>Sacramento State University</p>
+                <a href="https://www.linkedin.com/in/yongwhan-lim-09855328" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </div>
 
+
+    <!-- thematic break -->
     <hr />
 
-    @*HIGHLIGHTS*@
-    <div id="highlights" class="relpos text-white container container-md mt-lg-5 mb-lg-5">
-        <div class="row">
-            <h2>Highlights</h2>
-        </div>
-        <div class="row">
-            <div class="col-2">
-            </div>
-            <div class="col-8">
-                <h4 style="padding-top: 3%">Social & Event Engagement</h4>
-                <p style="padding-top: 2%">Inclusive church information can be found within the website that will display social engagements as well as allow for events to be created and handled. </p>
-                <h4 style="padding-top: 3%">Membership Services</h4>
-                <p style="padding-top: 2%">Track the attendance of Members, visitors, and be able to display the data within a time period.</p>
-                <h4 style="padding-top: 3%">Resource Management</h4>
-                <p style="padding-top: 2%">Consists of all the necesarry application and division of powers that is needed within a business. (HR, Finance and Treasury, Staff, Volunteers, Inventory, etc.)</p>
-                <h4 style="padding-top: 3%">Ministry Services</h4>
-                <p style="padding-top: 2%">Tailored specifically for a church management software, these features will include Prayrer, Discipleship, Koinonia, Praise & Worship, Evangalism, etc.</p>
-            </div>
-            <div class="col-2">
-            </div>
-        </div>
-    </div>
 
-    <hr />
-
-    @*SCOPE*@
-    <div class="relpos text-white container container-md mt-lg-5 mb-lg-5">
+    @*BACKGROUND*@
+    <div id="background" class="text-white container container-md mt-lg-5 mb-lg-5">
         <div class="row">
-            <h2 id="scope">Scope</h2>
+            <h2>Background</h2>
         </div>
         <div class="row">
             <div class="col-2">
             </div>
             <div class="col-8">
                 <p style="padding-top: 2%">
-                    Churchpoint will allow user to manage single or multiple churches through the implementation of the application
-                    where all of the necessary things to build a successful church will be located anywhere that there is access to a webpage.
+                    So we were tasked with creating a new church management operations system, ChurchPoint, that
+                    would be a operational efficenty system that could service different types of church and regardless of size. This system would
+                    include specific functions that the client would like that other church management systems could not offer.
                 </p>
             </div>
             <div class="col-2">
@@ -474,148 +510,249 @@
         </div>
     </div>
 
+
+
+    <!-- thematic break -->
     <hr />
 
-    @*PROTOTYPES*@
-    <div class="relpos text-white container container-md mt-lg-5 mb-lg-5">
-        <h2 id="prototypes">Prototypes</h2>
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
-                width="1000" height="650"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLNJVIU64duxPDdnbh19jrC%2FWireframing-in-Figma%3Fpage-id%3D0%253A1%26node-id%3D597%253A3342%26viewport%3D241%252C48%252C0.06%26scaling%3Dscale-down%26starting-point-node-id%3D597%253A3342" allowfullscreen>
-        </iframe>
+
+    @*PROBLEM*@
+    <div id="problem" class="text-white container container-md mt-lg-5 mb-lg-5">
+        <div class="row">
+            <h2>Problem & Proposed Solution</h2>
+        </div>
+        <div class="row mt-lg-5">
+            <div class="col-1">
+            </div>
+            <div class="col-4">
+                <h4 style="text-align: center" ;>The Problem </h4>
+                <ol style="text-align: left;">
+                    <li>The current church managment systems are entirely dependent on the size and function the church wants to perform.</li>
+                    <li>Current church management systems targeted only specific or general functions of a church, which may not be sutiable in a particular needs of a church.</li>
+                </ol>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-4">
+                <h4 style="text-align: center" ;>The Proposed Solution</h4>
+                <p style="text-align: center;" padding-top: 2%">
+                    Is to create a church management system that be a process-driven (based on discipleship church) software that contains
+                    a service-oriented information system that was robust. This system would be architected to be extensible, flexible
+                    security-compliant, and adaptable to any church environment no matter the size of the church.
+                </p>
+            </div>
+            <div class="col-1">
+            </div>
+        </div>
     </div>
+</div>
 
-    <hr />
 
-    @*TIMELINE*@
-    <div class="relpos timelineContainer container mt-lg-5">
-        <h2 id="timeline">Timeline</h2>
-        <section class="timeline">
-            <div>
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header">
-                            <h2>Sprint 0</h2>
-                        </div>
-                        <div class="date">Sep-27-2021 - Oct-11-0221</div>
-                        <ul>
-                            <li>Draft a Project Proposal</li>
-                            <li>Draft a Product Charter Document</li>
-                            <li>Sign Product Charter Document</li>
-                        </ul>
+<!-- thematic break -->
+<hr />
 
+
+@*HIGHLIGHTS*@
+<div id="highlights" class="text-white container container-md mt-lg-5 mb-lg-5">
+    <div class="row">
+        <i class="fa fa-clipboard-list fa-3x p-5"></i>
+        <h2>Highlights</h2>
+    </div>
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <h4 style="padding-top: 3%">Social & Event Engagement</h4>
+            <p style="padding-top: 2%">Inclusive church information can be found within the website that will display social engagements as well as allow for events to be created and handled. </p>
+            <h4 style="padding-top: 3%">Membership Services</h4>
+            <p style="padding-top: 2%">Track the attendance of Members, visitors, and be able to display the data within a time period.</p>
+            <h4 style="padding-top: 3%">Resource Management</h4>
+            <p style="padding-top: 2%">Consists of all the necesarry application and division of powers that is needed within a business. (HR, Finance and Treasury, Staff, Volunteers, Inventory, etc.)</p>
+            <h4 style="padding-top: 3%">Ministry Services</h4>
+            <p style="padding-top: 2%">Tailored specifically for a church management software, these features will include Prayrer, Discipleship, Koinonia, Praise & Worship, Evangalism, etc.</p>
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+</div>
+
+
+<!-- thematic break -->
+<hr />
+
+
+@*SCOPE*@
+<div class="text-white container container-md mt-lg-5 mb-lg-5">
+    <div class="row">
+        <h2 id="scope">Scope</h2>
+    </div>
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <p style="padding-top: 2%">
+                Churchpoint will allow user to manage single or multiple churches through the implementation of the application
+                where all of the necessary things to build a successful church will be located anywhere that there is access to a webpage.
+            </p>
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+</div>
+
+
+<!-- thematic break -->
+<hr />
+
+
+@*PROTOTYPES*@
+<div class="text-white container container-md mt-lg-5 mb-lg-5">
+    <h2 id="prototypes">Prototypes</h2>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+            width="1000" height="650"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLNJVIU64duxPDdnbh19jrC%2FWireframing-in-Figma%3Fpage-id%3D0%253A1%26node-id%3D597%253A3342%26viewport%3D241%252C48%252C0.06%26scaling%3Dscale-down%26starting-point-node-id%3D597%253A3342" allowfullscreen>
+    </iframe>
+</div>
+
+<div class="relpos container mt-lg-5 mb-lg-5">
+    <iframe width="800" height="450" src="https://miro.com/app/embed/o9J_lmr8VMw=/?pres=1&frameId=3074457366700954446" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+</div>
+
+
+<!-- thematic break -->
+<hr />
+
+
+@*TIMELINE*@
+<div class="timelineContainer container mt-lg-5">
+    <h2 id="timeline">Timeline</h2>
+    <section class="timeline">
+        <div>
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Sprint 0</h2>
                     </div>
-                </div>
+                    <div class="date">Sep-27-2021 - Oct-11-0221</div>
+                    <ul>
+                        <li>Draft a Project Proposal</li>
+                        <li>Draft a Product Charter Document</li>
+                        <li>Sign Product Charter Document</li>
+                    </ul>
 
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header1">
-                            <h2>Sprint 1</h2>
-                        </div>
-                        <div class="date">Oct-11-2021 - Oct-26-2021</div>
-                        <ul>
-                            <li>Advisor Lab Meeting</li>
-                            <li>Client Review Meeting</li>
-                            <li>Buiness Event Table Produced</li>
-                            <li>Context Diagram Produced</li>
-                            <li>Git Versioning / C# Standards presentation</li>
-                            <li>Rough wireframe of potential product</li>
-                            <li>Begin Front-End Prototyping</li>
-                            <li>Project Logo and other assets</li>
-                            <li>Rough draft of Domain Data Entities / Relationships</li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header2">
-                            <h2>Sprint 2</h2>
-                        </div>
-                        <div class="date">Oct-26-2021 - Nov-01-2021</div>
-                        <ul>
-                            <li>C# Training Session 1</li>
-                            <li>C# Training Session 2</li>
-                            <li>Emergency Jira SOS Meeting</li>
-                            <li>Planning Poker Session after GM</li>
-                            <li>General Meeting 1 -- Weekly Standup</li>
-                            <li>General Meeting 2 -- Weekly Standup</li>
-                            <li>Front End UI/UX Team Meeting</li>
-                            <li>Sprint 02 - Client Review Meeting</li>
-                            <li>Sprint 02 - Lab Meeting & Retrospective</li>
-                            <li>Make GIT repo how to pdf</li>
-                            <li>Create Test Git</li>
-                            <li>Draft API Design</li>
-                            <li>Project Logo and other assets</li>
-                            <li>Rough wireframe of potential product</li>
-                            <li>Database Attributes/Relationships for Entities</li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header3">
-                            <h2>Sprint 3</h2>
-                        </div>
-                        <div class="date">Nov-01-2021 - Nov-15-2021</div>
-                        <ul>
-                            <li>Started Mini-Projects using Tech Stack</li>
-                            <li>Document stating Tech Stack</li>
-                            <li>Refine Database Entities</li>
-                            <li>Starter Draft API Design</li>
-                            <li>General Meeting 1 -- Weekly Standup</li>
-                            <li>General Meeting 2 -- Weekly Standup</li>
-                            <li>Front End & DevOps Team Meeting</li>
-                            <li>Sprint 03 - Client Review Meeting</li>
-                            <li>Sprint 03 - Lab Meeting & Retrospective</li>
-                            <li>Wireframe Login Menu</li>
-                            <li>Wireframe Social Media Intergration Windows</li>
-                            <li>Created Test Git</li>
-                            <li>Made GIT repo how to pdf</li>
-                            <li>Back-End Meeting</li>
-                            <li>Create Session Materials for Dev Training #3</li>
-                            <li>Change Centerpoint -> ChurchPoint on the wireframes</li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header4">
-                            <h2>Sprint 4</h2>
-                        </div>
-                        <div class="date">Nov-15-2021 - Nov-29-2021</div>
-                        <ul>
-                            <li>Finish Mini-Project</li>
-                            <li>Finalization of Project Documentation</li>
-                            <li>Finish Project Webpage</li>
-                            <li>Finish Project Presentation</li>
-                            <li>Sprint 04 - Client Review Meeting</li>
-                            <li>Sprint 04 - Lab Meeting & Retrospective</li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="timeline-item reveal fade-bottom">
-                    <div class="timeline-img"></div>
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header5">
-                            <h2>Sprint 4.5</h2>
-                        </div>
-                        <div class="date">Nov-29-2021 - ???</div>
-                        <ul>
-                            <li>Get Ready for 191</li>
-                        </ul>
-
-                    </div>
                 </div>
             </div>
-        </section>
+
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header1">
+                        <h2>Sprint 1</h2>
+                    </div>
+                    <div class="date">Oct-11-2021 - Oct-26-2021</div>
+                    <ul>
+                        <li>Advisor Lab Meeting</li>
+                        <li>Client Review Meeting</li>
+                        <li>Buiness Event Table Produced</li>
+                        <li>Context Diagram Produced</li>
+                        <li>Git Versioning / C# Standards presentation</li>
+                        <li>Rough wireframe of potential product</li>
+                        <li>Begin Front-End Prototyping</li>
+                        <li>Project Logo and other assets</li>
+                        <li>Rough draft of Domain Data Entities / Relationships</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header2">
+                        <h2>Sprint 2</h2>
+                    </div>
+                    <div class="date">Oct-26-2021 - Nov-01-2021</div>
+                    <ul>
+                        <li>C# Training Session 1</li>
+                        <li>C# Training Session 2</li>
+                        <li>Emergency Jira SOS Meeting</li>
+                        <li>Planning Poker Session after GM</li>
+                        <li>General Meeting 1 -- Weekly Standup</li>
+                        <li>General Meeting 2 -- Weekly Standup</li>
+                        <li>Front End UI/UX Team Meeting</li>
+                        <li>Sprint 02 - Client Review Meeting</li>
+                        <li>Sprint 02 - Lab Meeting & Retrospective</li>
+                        <li>Make GIT repo how to pdf</li>
+                        <li>Create Test Git</li>
+                        <li>Draft API Design</li>
+                        <li>Project Logo and other assets</li>
+                        <li>Rough wireframe of potential product</li>
+                        <li>Database Attributes/Relationships for Entities</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header3">
+                        <h2>Sprint 3</h2>
+                    </div>
+                    <div class="date">Nov-01-2021 - Nov-15-2021</div>
+                    <ul>
+                        <li>Started Mini-Projects using Tech Stack</li>
+                        <li>Document stating Tech Stack</li>
+                        <li>Refine Database Entities</li>
+                        <li>Starter Draft API Design</li>
+                        <li>General Meeting 1 -- Weekly Standup</li>
+                        <li>General Meeting 2 -- Weekly Standup</li>
+                        <li>Front End & DevOps Team Meeting</li>
+                        <li>Sprint 03 - Client Review Meeting</li>
+                        <li>Sprint 03 - Lab Meeting & Retrospective</li>
+                        <li>Wireframe Login Menu</li>
+                        <li>Wireframe Social Media Intergration Windows</li>
+                        <li>Created Test Git</li>
+                        <li>Made GIT repo how to pdf</li>
+                        <li>Back-End Meeting</li>
+                        <li>Create Session Materials for Dev Training #3</li>
+                        <li>Change Centerpoint -> ChurchPoint on the wireframes</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header4">
+                        <h2>Sprint 4</h2>
+                    </div>
+                    <div class="date">Nov-15-2021 - Nov-29-2021</div>
+                    <ul>
+                        <li>Finish Mini-Project</li>
+                        <li>Finalization of Project Documentation</li>
+                        <li>Finish Project Webpage</li>
+                        <li>Finish Project Presentation</li>
+                        <li>Sprint 04 - Client Review Meeting</li>
+                        <li>Sprint 04 - Lab Meeting & Retrospective</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="timeline-item reveal fade-bottom">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header5">
+                        <h2>Sprint 4.5</h2>
+                    </div>
+                    <div class="date">Nov-29-2021 - ???</div>
+                    <ul>
+                        <li>Get Ready for 191</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
     </div>
 </div>
