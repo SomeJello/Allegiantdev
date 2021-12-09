@@ -15,9 +15,34 @@ body hr {
     pointer-events: none;
 }
 
-/*.relpos{
-    position: relative;
-}*/
+.fa_color_orange {
+    color: orange;
+}
+
+.container {
+    text-align: center;
+}
+
+.fa_color_red {
+    color: orangered;
+}
+
+.fa_color_light_blue {
+    color: deepskyblue;
+}
+
+.fa_color_mint_green {
+    color: #a9fdac;
+}
+
+.fa_linkedin {
+    color: white;
+    transition: 0.3s;
+}
+
+    .fa_linkedin:hover {
+        color: #0e76a8;
+    }
 
 .carousel{
     margin: auto;
@@ -39,10 +64,9 @@ body hr {
     content: "";
 }
 
-.container {
+/*.container {
     text-align: center;
-    /*padding: 5%;*/
-}
+}*/
 
 @keyframes fadein {
     from {
@@ -198,7 +222,7 @@ header {
     position: relative;
     width: 45%;
     padding: 10px 30px;
-    border-radius: 4px;
+    border-radius: 10px;
     background: #f5f5f5;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
@@ -226,27 +250,9 @@ header {
     margin-left: -15px;
 }
 
-/*a {
-    background: #28afb2;
-    color: #FFFFFF;
-    padding: 8px 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    display: inline-block;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-}
-
-    a:hover, a:active, a:focus {
-        background: #32408f;
-        color: #FFFFFF;
-        text-decoration: none;
-    }*/
-
 .timeline-card {
-    padding: 0 !important;
+    padding: 0% !important;
+    min-height: 425px;
 }
 
     .timeline-card p {
@@ -265,6 +271,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header h2 {
@@ -282,6 +289,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header1 h2 {
@@ -299,6 +307,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header2 h2 {
@@ -317,6 +326,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header3 h2 {
@@ -335,6 +345,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header4 h2 {
@@ -353,6 +364,7 @@ header {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
     .timeline-img-header5 h2 {
