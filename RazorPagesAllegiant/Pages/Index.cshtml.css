@@ -251,7 +251,7 @@ header {
 }
 
 .timeline-card {
-    padding: 1% !important;
+    padding: 0% !important;
     min-height: 425px;
 }
 
