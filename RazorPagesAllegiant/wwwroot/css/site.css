@@ -46,3 +46,9 @@ body {
     text-align: center;
     float: right;
 }
+
+/*Loading Earth Orbiter Font*/
+@font-face{
+    font-family: 'Earth Orbiter'; 
+    src: url('../fonts/earthorbiter.ttf') format('truetype');  
+}
